@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LerDatos1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../LerDatos/out/artifacts/LerDatos_jar/LerDatos.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
