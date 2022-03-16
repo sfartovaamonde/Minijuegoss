@@ -11,28 +11,29 @@ public class Tetris extends JFrame {
 
 
     public Tetris() {
-
+        
+        public static void SegundoMinijuego(){
+        
+        JFrame ventana = new JFrame("Tetris"); // Creo una ventana llamada jueguito
+        Juego jueguito = new Juego(); // Creo un objeto llamado jueguito
+        ventana.add(jueguito); // Añadimos a la ventana el juego
+        ventana.setSize(1300,400); // Establecemos un tamaño
+         juego.setLocationRelativeTo(null);
+         juego.setVisible(true);
         barraDeEstado = new JLabel(" 0");
         add(barraDeEstado, BorderLayout.SOUTH);
         tablero tablero = new tablero(this);
         add(tablero);
         tablero.empezar();
 
-        setSize(200, 400);
-        setTitle("Tetris");
+        
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public JLabel getBarraDeEstado() {
-        return barraDeEstado;
-    }
-
-    public static void main(String[] args) {
-
-        Tetris juego = new Tetris();
-        juego.setLocationRelativeTo(null);
-        juego.setVisible(true);
-
+            return barraDeEstado;
+            
+        }
     }
 }
 

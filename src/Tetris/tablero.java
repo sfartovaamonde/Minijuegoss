@@ -282,7 +282,7 @@ public class tablero extends JPanel implements ActionListener {
                     unaLineaAbajo();
                     break;
             }
-
+        
         }
     }
 }
