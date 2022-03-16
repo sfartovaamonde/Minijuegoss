@@ -9,18 +9,18 @@ public class Main {
     //Introduccion
 
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, " MINIJUEGOS.SS ");
+        JOptionPane.showMessageDialog(null, " MINIJUEGO.SS ");
 
 
-        JOptionPane.showMessageDialog(null, " Bienvenido Jugador! " + "\n" + " Este juego está dividido en 3 minijuegos," +
-                " que son los siguientes :" + "\n" +
-                " 1. Tractor " + "\n" + " 2. Snake " + "\n" + " 3. Tetris ");
+        JOptionPane.showMessageDialog(null, " Bienvenido Jugador! " + "\n" + " Este juego contiene 1 minijuego " +
+                " que es el siguiente :" + "\n" +
+                " 1. Tractor ");
 
 
 
 
 
-        JOptionPane.showMessageDialog(null, " Ahora que sabe cual es cada juego, para iniciar el que usted desee," +
+        JOptionPane.showMessageDialog(null, " Ahora que sabe cual es juego, para iniciar ," +
                 " lo único que debe hacer es teclear el número que corresponde con el juego que quiere jugar " + "\n"
         );
 
